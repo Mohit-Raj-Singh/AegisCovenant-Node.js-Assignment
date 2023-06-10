@@ -35,12 +35,16 @@ dataRouter.get('/:source/:destination/:date', async (req, res) => {
 
     try {
         const flights = await dataModel.find({ source, destination, date });
-        let allFlight = {}
-        for (let i = 0; i < flights.length; i++) {
-            allFlight[flights[i].flight] = flights[i].price;
+        if (flights.length === 0) {
+            res.send(`Cannot find any flight between ${source} to ${destination} on ${date}`);
         }
-        res.send(allFlight);
-        // res.send(flights)
+        else {
+            let allFlight = {}
+            for (let i = 0; i < flights.length; i++) {
+                allFlight[flights[i].flight] = flights[i].price;
+            }
+            res.send(allFlight);
+        }
     }
     catch (err) {
         console.log(err);
