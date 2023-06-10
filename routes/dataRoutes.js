@@ -15,19 +15,6 @@ dataRouter.get("/", async (req, res) => {
 
 
 
-dataRouter.post("/create", async (req, res) => {
-    const payload = req.body;
-    try {
-        const newData = new dataModel(payload);
-        await newData.save();
-        res.send("Created")
-    }
-    catch (err) {
-        console.log(err);
-        res.send({ "msg": "wrong" })
-    }
-})
-
 
 
 dataRouter.get('/:source/:destination/:date', async (req, res) => {
