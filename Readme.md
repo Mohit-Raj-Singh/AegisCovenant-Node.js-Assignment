@@ -4,7 +4,12 @@ You can search flights between two cities, You have to use Source, Destination a
 
 ## Deployed API
 
-- <a href="">Flight API</a>
+- <a href="https://cute-red-outfit.cyclic.app/">Flight API</a>
+
+Use "flight" as endpoint to get all flights data:- `https://cute-red-outfit.cyclic.app/flight`
+
+For getting flights between two cities use source as "Delhi", destination as "Goa", and date "15 April 2023":- `https://cute-red-outfit.cyclic.app/flight/Delhi/Goa/15 April 2023`
+
 
 ## Cities you can find flights
 
@@ -34,6 +39,14 @@ Mumbai-Pune
 Pune-Mumbai
 Bengaluru-Chennai
 Chennai-Bengaluru
+
+## Dates can use
+
+15 April 2023
+16 April 2023
+17 April 2023
+18 April 2023
+19 April 2023
 
 ## Built With
 
