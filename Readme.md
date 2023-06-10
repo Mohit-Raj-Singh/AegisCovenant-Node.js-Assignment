@@ -13,41 +13,40 @@ For getting flights between two cities use source as "Delhi", destination as "Go
 
 ## Cities you can find flights
 
-Delhi-Mumbai
-
-Mumbai-Delhi
-Delhi-Bengaluru
-Bengaluru-Delhi
-Delhi-Kolkata
-Kolkata-Delhi
-Delhi-Chennai
-Chennai-Delhi
-Delhi-Jaipur
-Jaipur-Delhi
-Delhi-Goa
-Goa-Delhi
-Delhi-Hyderabad
-Hyderabad-Delhi
-Delhi-Pune
-Pune-Delhi
-Mumbai-Kolkata
-Kolkata-Mumbai
-Mumbai-Bengaluru
-Bengaluru-Mumbai
-Mumbai-Chennai
-Chennai-Mumbai
-Mumbai-Pune
-Pune-Mumbai
-Bengaluru-Chennai
-Chennai-Bengaluru
+- Delhi-Mumbai
+- Mumbai-Delhi
+- Delhi-Bengaluru
+- Bengaluru-Delhi
+- Delhi-Kolkata
+- Kolkata-Delhi
+- Delhi-Chennai
+- Chennai-Delhi
+- Delhi-Jaipur
+- Jaipur-Delhi
+- Delhi-Goa
+- Goa-Delhi
+- Delhi-Hyderabad
+- Hyderabad-Delhi
+- Delhi-Pune
+- Pune-Delhi
+- Mumbai-Kolkata
+- Kolkata-Mumbai
+- Mumbai-Bengaluru
+- Bengaluru-Mumbai
+- Mumbai-Chennai
+- Chennai-Mumbai
+- Mumbai-Pune
+- Pune-Mumbai
+- Bengaluru-Chennai
+- Chennai-Bengaluru
 
 ## Dates can use
 
-15 April 2023
-16 April 2023
-17 April 2023
-18 April 2023
-19 April 2023
+- 15 April 2023
+- 16 April 2023
+- 17 April 2023
+- 18 April 2023
+- 19 April 2023
 
 ## Built With
 
